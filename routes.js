@@ -2,7 +2,7 @@
 
 const router = (app) => {
     app.get('/', (req, res) => {
-        res.send('Hello, world!');
+        res.render('index');
     });
 
     // Regex path
